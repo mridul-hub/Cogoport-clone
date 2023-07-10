@@ -1,0 +1,74 @@
+:root {
+  --color-primary: #ee3425;
+  --color-primary-1: #ee3425;
+  --color-primary-2: #ee3425;
+  --color-secondary: #fbdc00;
+  --color-secondary-1: #ebbe00;
+  --color-secondary-5: #fff;
+  --font-color: #434343;
+  --font-color-heading: #000;
+  --font-color-link: var(--color-primary);
+  --font-family: "PT Sans",sans-serif;
+  --font-family-heading: "Ubuntu",sans-serif;
+  --font-size-xl: 18px;
+  --font-size-lg: 16px;
+  --font-size-md: 14px;
+  --font-size-sm: 12px;
+  --font-size-xs: 10px;
+  --line-height: 1.5;
+  --layout-topbar: 56px;
+  --layout-startbar: 200px;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height);
+  color: var(--font-color);
+}
+
+ul{
+  list-style: none;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  color: var(--font-color-heading);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 16px;
+}
+
+button {
+  font-family: var(--font-family);
+  font-size: 14px!important;
+  font-weight: 700!important;
+}
+
+video {
+  object-fit: contain;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+a {
+  color: var(--font-color-link);
+  text-decoration: none;
+}
