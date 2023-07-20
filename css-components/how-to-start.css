@@ -1,0 +1,151 @@
+/* how to start */
+
+.how-it-works{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+}
+
+.how-it-works-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.how-it-works-heading{
+  font-size: 28px;
+}
+
+.how-it-works-buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.how-it-works-active{
+  width: 200px;
+  padding: 20px;
+  margin: 0 20px;
+  font-weight: 700;
+  color: #000!important;
+  border-radius: 20px;
+  background-color: var(--color-secondary)!important;
+  border: var(--color-secondary)!important;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-family: var(--font-family);
+  justify-content: center;
+  line-height: 1.2;
+  height: 36px;
+}
+
+.how-it-works-inactive{
+  width: 200px;
+  padding: 20px;
+  margin: 0 20px;
+  font-weight: 700;
+  color: #000!important;
+  border-radius: 20px;
+  background: #e5dfdf!important;
+  border: grey!important;
+  height: 36px;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-family: var(--font-family);
+  justify-content: center;
+  line-height: 1.2;
+}
+
+.how-it-works-main{
+  display: flex;
+}
+
+.how-it-works-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.how-it-works-card-up{
+  margin-bottom: 120px;
+  width: 300px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(169,188,218,.65);
+}
+
+.how-it-works-card-up>p{
+  font-weight: 600;
+  color: #ee3425;
+  font-size: 16px;
+}
+
+.how-it-works-card-up>span{
+  display: flex;
+}
+
+.how-it-works-card-up>span>p{
+  padding-bottom: 5px;
+  padding-left: 8px;
+  margin: 0;
+  font-size: 16px;
+}
+
+.how-it-works-card-up>div{
+  display: flex;
+  align-items: center;
+  padding: 0 0 10px;
+  margin: 0;
+  list-style-position: outside;
+}
+
+.how-it-works-card-down{
+  /* margin-bottom: 120px; */
+  width: 300px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(169,188,218,.65);
+}
+
+.how-it-works-card-down>p{
+  font-weight: 600;
+  color: #ee3425;
+  font-size: 16px;
+}
+
+.how-it-works-card-down>span{
+  display: flex;
+}
+
+.how-it-works-card-down>span>p{
+  padding-bottom: 5px;
+  padding-left: 8px;
+  margin: 0;
+  font-size: 16px;
+}
+
+.how-it-works-card-down>div{
+  display: flex;
+  align-items: center;
+  padding: 0 0 10px;
+  margin: 0;
+  list-style-position: outside;
+}
+
+.how-it-works-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.how-it-works-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* how to ends */

@@ -1,0 +1,29 @@
+
+/* industries start */
+
+.industries{
+  padding: 16px!important;
+  margin-bottom: 50px;
+  background: #fffef3;
+}
+
+.industries>div{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding: 16px;
+}
+
+.industries-heading{
+  text-align: center;
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.industries-content{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 50px;
+}
+
+/* industries end */
