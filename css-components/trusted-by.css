@@ -1,0 +1,26 @@
+/* trusted by section starts */
+.trusted-by{
+  margin-bottom: 50px;
+}
+
+.trusted-by>h3{
+  text-align: center;
+  margin-bottom: 28px;
+  font-size: 28px;
+  line-height: 1.2;
+}
+.companies{
+  display: flex;
+  flex-shrink: 0;
+  gap: 0.1rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.companies>img{
+  display: inline-block;
+  margin: 0px 40px;
+  flex: 1 1 1fr;
+  height: 73px;
+}
+/* trusted by section ends */

@@ -1,0 +1,129 @@
+/* latest news */
+.latest-news {
+  height: 35px;
+  font-size: 12px;
+  background-color: #fbf7f5;
+}
+/* latest news end */
+
+/* Nav bar starts */
+
+.section-nav {
+  padding: 8px 16px;
+  font-family: var(--font-family-heading);
+  font-weight: 500;
+  color: var(--font-color-heading);
+  background: #fbdc00;
+  height: var(--layout-topbar);
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.hamburger-icon {
+  display: none;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  padding: 0;
+  margin-right: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.section-logo {
+  cursor: pointer;
+  display: block;
+  flex-shrink: 0;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.section-subnav {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-nav-options {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 20px;
+  border-radius: 4px;
+}
+
+.nav-item-contactus {
+  width: max-content;
+  margin-left: 40px;
+  color: var(--font-color-heading);
+}
+
+.nav-item-contactus > a {
+  color: #000;
+  text-decoration: none;
+}
+
+.section-nav-register {
+  margin-right: auto;
+  font-family: var(--font-family-heading);
+  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item-login {
+  margin-right: 16px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+}
+
+.nav-item-signup {
+  color: #fff;
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  height: 36px;
+  padding: 4px 16px;
+  width: 100%;
+  border-radius: 8px !important;
+  outline: none;
+  font-family: var(--font-family);
+  line-height: 1.2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .hamburger-icon {
+    display: flex;
+  }
+  .section-subnav {
+    display: none;
+  }
+  .section-nav-register {
+    display: none;
+  }
+  .section-logo {
+    margin-left: 0;
+  }
+  .webpage {
+    width: fit-content;
+  }
+}
+
+/* nav bar ends */

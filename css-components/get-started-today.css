@@ -1,0 +1,20 @@
+
+/* get started today starts*/
+
+.get-started-today {
+  display: flex;
+  margin-bottom: 50px
+}
+
+.get-started-red-btn {
+  display: block;
+  margin-top: 20px;
+  border: none;
+  color: white;
+  background-color: #ee3425;
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 8px 42px;
+}
+
+/* get started today ends */
